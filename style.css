@@ -1,0 +1,105 @@
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float:  right;
+    margin-top: 15px;
+}
+
+.navbar ul li{
+    display: inline;
+    padding: 0px 10px;
+}
+
+#sign a{
+    background-color: rgb(63, 141, 243);
+    color: white;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+
+#sign a:hover{
+    text-decoration: none;
+    background-color: rgb(81, 151, 241);
+}
+
+.navbar ul li a{
+    text-decoration: none;  
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+}
+
+.navbar ul li a:hover{
+  text-decoration: black underline;  
+}
+
+.img-class{
+    display: inline-block;
+    margin: 25px 530px;
+}
+
+#text-area input{
+    display: block;
+    margin: auto;
+    border: 1px solid #d6d4d4;
+    border-radius: 20px;
+    padding: 12px 15px;
+    width: 40%;
+    outline: none;
+    font-size: 14px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.container a{
+    text-decoration: none;
+    margin: 0px 15px;
+    padding: 10px 10px;
+    font-size: 14px;
+    color: #555;   
+    background-color: #f8f9fa;
+}
+.container a:hover{
+    border: 1px solid rgb(199, 198, 198) ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.foot{
+    border: 1px solid rgb(243, 241, 241) ;
+    background-color: #f8f9fa;
+    padding: 12px 0px;
+}
+
+#foot1{
+    padding-left: 10px;
+    color: #555;
+    font-size: 14px;
+}
+
+#foot2 a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #555;
+    font-size: 15px;
+}
+
+#foot2 a:hover{
+    text-decoration: underline;
+}
+
+#foot2 div{
+    float: right;
+    padding-right: 10px;
+}
+
