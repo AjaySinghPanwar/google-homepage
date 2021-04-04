@@ -1,4 +1,8 @@
-ul{
+.navbar {
+    height: 50px;
+}
+
+.navbar ul{
     list-style: none;
     margin: 0;
     padding: 0;
@@ -6,18 +10,18 @@ ul{
     margin-top: 15px;
 }
 
-ul li{
+.navbar ul li{
     display: inline;
     padding: 0px 10px;
 }
 
-ul li a{
+.navbar ul li a{
     text-decoration: none;  
     color: rgba(0,0,0,0.87);
     font-size: 13px;
 }
 
-ul li a:hover{
+.navbar ul li a:hover{
   text-decoration: black underline;  
 }
 
@@ -34,8 +38,9 @@ ul li a:hover{
 }
 
 .img-class img{
-    display: inline-block;
-    margin: 25px 530px;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
 }
 
 #text-area input{
@@ -44,7 +49,8 @@ ul li a:hover{
     border: 1px solid #d6d4d4;
     border-radius: 20px;
     padding: 12px 15px;
-    width: 40%;
+    margin-top: 25px;
+    width: 45%;
     outline: none;
     font-size: 14px;
 }
