@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 1100px) and (min-width: 800px) {
+@media only screen and (max-width: 1100px) and (min-width: 600px) {
     .img-class img{
         padding-top: 35px;
     }
@@ -10,7 +10,7 @@
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
     .img-class img{
         padding-top: 40px;
     }
@@ -18,5 +18,22 @@
     #text-area input{
         width: 60%;
         padding: 10px 80px;
+    }
+
+    #foot2 div{
+        float: none;
+        text-align: center;
+    }
+
+    #foot2{
+        text-align: center;
+    }
+
+    #foot2 a{
+        padding: 0px 15px
+    }
+
+    #foot2 div{
+        margin-top: 15px;
     }
 }
